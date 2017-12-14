@@ -13,6 +13,8 @@
 		4DCE9F661FE216EA00A61070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE9F651FE216EA00A61070 /* Assets.xcassets */; };
 		4DCE9F691FE216EA00A61070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE9F671FE216EA00A61070 /* LaunchScreen.storyboard */; };
 		4DCE9F741FE216EA00A61070 /* TalkTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE9F731FE216EA00A61070 /* TalkTalkTests.swift */; };
+		748641D0B10B38067001FB93 /* Pods_TalkTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E8850D8810532AE1E015B6 /* Pods_TalkTalkTests.framework */; };
+		8DDF4028F7B409B5F1FB6C19 /* Pods_TalkTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACB64EB9D61860B463CBACE /* Pods_TalkTalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1382275BF31836115A51CDC1 /* Pods-TalkTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkTalk/Pods-TalkTalk.release.xcconfig"; sourceTree = "<group>"; };
+		35692E46873344851AE76CCA /* Pods-TalkTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalkTalk/Pods-TalkTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		4DCE9F5B1FE216EA00A61070 /* TalkTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCE9F5E1FE216EA00A61070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DCE9F601FE216EA00A61070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		4DCE9F6F1FE216EA00A61070 /* TalkTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCE9F731FE216EA00A61070 /* TalkTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkTalkTests.swift; sourceTree = "<group>"; };
 		4DCE9F751FE216EA00A61070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A081D009280D94B80C0402E /* Pods-TalkTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkTalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkTalkTests/Pods-TalkTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE0D1D51619C34E733AB4143 /* Pods-TalkTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalkTalkTests/Pods-TalkTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CACB64EB9D61860B463CBACE /* Pods_TalkTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E8850D8810532AE1E015B6 /* Pods_TalkTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DDF4028F7B409B5F1FB6C19 /* Pods_TalkTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748641D0B10B38067001FB93 /* Pods_TalkTalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16EF19B16ADA288FD4402718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CACB64EB9D61860B463CBACE /* Pods_TalkTalk.framework */,
+				D9E8850D8810532AE1E015B6 /* Pods_TalkTalkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4DCE9F521FE216EA00A61070 = {
 			isa = PBXGroup;
 			children = (
 				4DCE9F5D1FE216EA00A61070 /* TalkTalk */,
 				4DCE9F721FE216EA00A61070 /* TalkTalkTests */,
 				4DCE9F5C1FE216EA00A61070 /* Products */,
+				8DE8345665FEFB94DFF2BE98 /* Pods */,
+				16EF19B16ADA288FD4402718 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,17 @@
 			path = TalkTalkTests;
 			sourceTree = "<group>";
 		};
+		8DE8345665FEFB94DFF2BE98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35692E46873344851AE76CCA /* Pods-TalkTalk.debug.xcconfig */,
+				1382275BF31836115A51CDC1 /* Pods-TalkTalk.release.xcconfig */,
+				BE0D1D51619C34E733AB4143 /* Pods-TalkTalkTests.debug.xcconfig */,
+				5A081D009280D94B80C0402E /* Pods-TalkTalkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DCE9F781FE216EA00A61070 /* Build configuration list for PBXNativeTarget "TalkTalk" */;
 			buildPhases = (
+				00141D251B179265FFAF35DF /* [CP] Check Pods Manifest.lock */,
 				4DCE9F571FE216EA00A61070 /* Sources */,
 				4DCE9F581FE216EA00A61070 /* Frameworks */,
 				4DCE9F591FE216EA00A61070 /* Resources */,
+				737D1C9FDC95B494D6CA74C2 /* [CP] Embed Pods Frameworks */,
+				8F5AF04C8BD8E55C3510D078 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DCE9F7B1FE216EA00A61070 /* Build configuration list for PBXNativeTarget "TalkTalkTests" */;
 			buildPhases = (
+				BF76E7B8C287DC9B8E9530BC /* [CP] Check Pods Manifest.lock */,
 				4DCE9F6B1FE216EA00A61070 /* Sources */,
 				4DCE9F6C1FE216EA00A61070 /* Frameworks */,
 				4DCE9F6D1FE216EA00A61070 /* Resources */,
+				8C3D1D98FD4C02FA77D534AA /* [CP] Embed Pods Frameworks */,
+				FC55B6FFFD690FA140ED9997 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,118 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00141D251B179265FFAF35DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737D1C9FDC95B494D6CA74C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TalkTalk/Pods-TalkTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkTalk/Pods-TalkTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3D1D98FD4C02FA77D534AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkTalkTests/Pods-TalkTalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F5AF04C8BD8E55C3510D078 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkTalk/Pods-TalkTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF76E7B8C287DC9B8E9530BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkTalkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC55B6FFFD690FA140ED9997 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkTalkTests/Pods-TalkTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DCE9F571FE216EA00A61070 /* Sources */ = {
@@ -351,6 +501,7 @@
 		};
 		4DCE9F791FE216EA00A61070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35692E46873344851AE76CCA /* Pods-TalkTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +516,7 @@
 		};
 		4DCE9F7A1FE216EA00A61070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1382275BF31836115A51CDC1 /* Pods-TalkTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +531,7 @@
 		};
 		4DCE9F7C1FE216EA00A61070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0D1D51619C34E733AB4143 /* Pods-TalkTalkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,6 +548,7 @@
 		};
 		4DCE9F7D1FE216EA00A61070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A081D009280D94B80C0402E /* Pods-TalkTalkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
