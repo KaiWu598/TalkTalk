@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D49A6C01FE402AD00101ABA /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6BF1FE402AD00101ABA /* FancyField.swift */; };
+		4D49A6C21FE4924300101ABA /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6C11FE4924300101ABA /* FancyButton.swift */; };
+		4D49A6C41FE4B40E00101ABA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D49A6C31FE4AE8000101ABA /* GoogleService-Info.plist */; };
+		4D49A6C61FE4C37000101ABA /* OnlineUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6C51FE4C37000101ABA /* OnlineUsersViewController.swift */; };
+		4D49A6C91FE4C50E00101ABA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6C81FE4C50E00101ABA /* User.swift */; };
+		4D49A6CB1FE4CA2E00101ABA /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6CA1FE4CA2E00101ABA /* UserCell.swift */; };
+		4D49A6CE1FE533D500101ABA /* ChatroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6CD1FE533D500101ABA /* ChatroomViewController.swift */; };
 		4DCE9F5F1FE216EA00A61070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE9F5E1FE216EA00A61070 /* AppDelegate.swift */; };
-		4DCE9F611FE216EA00A61070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE9F601FE216EA00A61070 /* ViewController.swift */; };
+		4DCE9F611FE216EA00A61070 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE9F601FE216EA00A61070 /* LoginViewController.swift */; };
 		4DCE9F641FE216EA00A61070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE9F621FE216EA00A61070 /* Main.storyboard */; };
 		4DCE9F661FE216EA00A61070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE9F651FE216EA00A61070 /* Assets.xcassets */; };
 		4DCE9F691FE216EA00A61070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCE9F671FE216EA00A61070 /* LaunchScreen.storyboard */; };
@@ -30,9 +37,16 @@
 /* Begin PBXFileReference section */
 		1382275BF31836115A51CDC1 /* Pods-TalkTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkTalk/Pods-TalkTalk.release.xcconfig"; sourceTree = "<group>"; };
 		35692E46873344851AE76CCA /* Pods-TalkTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalkTalk/Pods-TalkTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		4D49A6BF1FE402AD00101ABA /* FancyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		4D49A6C11FE4924300101ABA /* FancyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		4D49A6C31FE4AE8000101ABA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D49A6C51FE4C37000101ABA /* OnlineUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUsersViewController.swift; sourceTree = "<group>"; };
+		4D49A6C81FE4C50E00101ABA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4D49A6CA1FE4CA2E00101ABA /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		4D49A6CD1FE533D500101ABA /* ChatroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomViewController.swift; sourceTree = "<group>"; };
 		4DCE9F5B1FE216EA00A61070 /* TalkTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCE9F5E1FE216EA00A61070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DCE9F601FE216EA00A61070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DCE9F601FE216EA00A61070 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4DCE9F631FE216EA00A61070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DCE9F651FE216EA00A61070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCE9F681FE216EA00A61070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +89,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4D49A6BE1FE4028800101ABA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4D49A6BF1FE402AD00101ABA /* FancyField.swift */,
+				4D49A6C11FE4924300101ABA /* FancyButton.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4D49A6C71FE4C39D00101ABA /* OnlineUsers */ = {
+			isa = PBXGroup;
+			children = (
+				4D49A6CA1FE4CA2E00101ABA /* UserCell.swift */,
+			);
+			path = OnlineUsers;
+			sourceTree = "<group>";
+		};
+		4D49A6CC1FE50E1000101ABA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE9F621FE216EA00A61070 /* Main.storyboard */,
+				4DCE9F671FE216EA00A61070 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4DAF48491FE39AFF0047A642 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D49A6C81FE4C50E00101ABA /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DAF484B1FE39B130047A642 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D49A6CC1FE50E1000101ABA /* Storyboard */,
+				4D49A6C71FE4C39D00101ABA /* OnlineUsers */,
+				4D49A6BE1FE4028800101ABA /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DAF484C1FE39B1B0047A642 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DCE9F601FE216EA00A61070 /* LoginViewController.swift */,
+				4D49A6C51FE4C37000101ABA /* OnlineUsersViewController.swift */,
+				4D49A6CD1FE533D500101ABA /* ChatroomViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		4DCE9F521FE216EA00A61070 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +166,13 @@
 		4DCE9F5D1FE216EA00A61070 /* TalkTalk */ = {
 			isa = PBXGroup;
 			children = (
+				4DAF484C1FE39B1B0047A642 /* Controller */,
+				4DAF484B1FE39B130047A642 /* View */,
+				4DAF48491FE39AFF0047A642 /* Model */,
 				4DCE9F5E1FE216EA00A61070 /* AppDelegate.swift */,
-				4DCE9F601FE216EA00A61070 /* ViewController.swift */,
-				4DCE9F621FE216EA00A61070 /* Main.storyboard */,
 				4DCE9F651FE216EA00A61070 /* Assets.xcassets */,
-				4DCE9F671FE216EA00A61070 /* LaunchScreen.storyboard */,
 				4DCE9F6A1FE216EA00A61070 /* Info.plist */,
+				4D49A6C31FE4AE8000101ABA /* GoogleService-Info.plist */,
 			);
 			path = TalkTalk;
 			sourceTree = "<group>";
@@ -218,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DCE9F691FE216EA00A61070 /* LaunchScreen.storyboard in Resources */,
+				4D49A6C41FE4B40E00101ABA /* GoogleService-Info.plist in Resources */,
 				4DCE9F661FE216EA00A61070 /* Assets.xcassets in Resources */,
 				4DCE9F641FE216EA00A61070 /* Main.storyboard in Resources */,
 			);
@@ -349,8 +419,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCE9F611FE216EA00A61070 /* ViewController.swift in Sources */,
+				4DCE9F611FE216EA00A61070 /* LoginViewController.swift in Sources */,
+				4D49A6C21FE4924300101ABA /* FancyButton.swift in Sources */,
+				4D49A6C91FE4C50E00101ABA /* User.swift in Sources */,
+				4D49A6CE1FE533D500101ABA /* ChatroomViewController.swift in Sources */,
 				4DCE9F5F1FE216EA00A61070 /* AppDelegate.swift in Sources */,
+				4D49A6C01FE402AD00101ABA /* FancyField.swift in Sources */,
+				4D49A6C61FE4C37000101ABA /* OnlineUsersViewController.swift in Sources */,
+				4D49A6CB1FE4CA2E00101ABA /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
